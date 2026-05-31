@@ -1,0 +1,10 @@
+<metadata>
+    <networktime>
+        <filename>NetworkTime.js</filename>
+        <translations>
+            <title>Network Time</title>
+            <firewall>Firewall time</firewall>
+            <uptime>Uptime</uptime>
+        </translations>
+    </networktime>
+</metadata>
