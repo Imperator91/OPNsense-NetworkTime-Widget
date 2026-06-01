@@ -103,5 +103,3 @@
   <tr><td><code>NetworkTime.js</code></td><td>das Widget</td></tr>
   <tr><td><code>NetworkTime.xml</code></td><td>Metadata-Eintrag (Titel/Übersetzungen)</td></tr>
 </table>
-<h2>Lizenz</h2>
-<p>Empfohlen: BSD-2-Clause (wie OPNsense selbst). Bitte nach Bedarf anpassen.</p>
