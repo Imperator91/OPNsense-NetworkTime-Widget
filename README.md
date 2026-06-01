@@ -56,18 +56,6 @@
   <li>Dashboard im Browser hart neu laden (<kbd>Strg</kbd> + <kbd>F5</kbd>).</li>
   <li>Dashboard &rarr; Bearbeiten (Stift) &rarr; „Widget hinzufügen" &rarr; <b>Network Time</b>.</li>
 </ol>
-<h3>NTP_STATUS_URL ermitteln</h3>
-<p>
-  Den genauen Endpunkt der Statusseite (Dienste &rarr; Netzwerkzeit &rarr; Status)
-  findest du auf der Box mit:
-</p>
-<pre><code>grep -rhoE "/api/[A-Za-z0-9_/]+" /usr/local/opnsense/mvc/app/views /usr/local/opnsense/mvc/app/controllers 2&gt;/dev/null | grep -i ntp | sort -u</code></pre>
-<p>Den passenden Eintrag oben in <code>NetworkTime.js</code> setzen, z.&nbsp;B.:</p>
-<pre><code>const NTP_STATUS_URL = '/api/ntpd/service/status';</code></pre>
-<p>
-  Solange die Konstante leer ist, funktioniert „Server Time" trotzdem; die
-  Peer-Zeilen zeigen dann <code>&mdash;</code>.
-</p>
 <h2>Wichtige Hinweise</h2>
 <ul>
   <li>
