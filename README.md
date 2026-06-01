@@ -11,7 +11,7 @@
   <img alt="License BSD-2-Clause" src="https://img.shields.io/badge/license-BSD--2--Clause-green">
 </p>
 <p align="center">
-  <img src="docs/screenshot.png" alt="Network Time Widget" width="320">
+  <img src="OPNsense_Dashboard_Widget_NetworkTime.png" alt="Network Time Widget" width="320">
 </p>
 <hr>
 <h2>Funktionen</h2>
