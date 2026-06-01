@@ -72,8 +72,8 @@
   <li>
     <b>Firmware-Updates:</b> Dateien unter
     <code>/usr/local/opnsense/www/js/widgets/</code> und die
-    <code>Metadata/</code> gehören zum Core und werden bei einem Firmware-Update
-    überschrieben. Für eine updatefeste Lösung müsste das Widget als eigenes
+    <code>Metadata/</code> gehören zum Core und sollten bei einem Firmware-Update
+    überschrieben werden. Für eine updatefeste Lösung müsste das Widget als eigenes
     Plugin (<code>os-&hellip;</code>) paketiert werden.
   </li>
 </ul>
