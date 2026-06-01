@@ -53,7 +53,6 @@
 <ol>
   <li><code>NetworkTime.js</code> nach <code>/usr/local/opnsense/www/js/widgets/</code> kopieren.</li>
   <li><code>NetworkTime.xml</code> nach <code>/usr/local/opnsense/www/js/widgets/Metadata/</code> kopieren.</li>
-  <li>Den NTP-Status-Endpunkt in <code>NetworkTime.js</code> eintragen (Konstante <code>NTP_STATUS_URL</code>, siehe unten).</li>
   <li>Dashboard im Browser hart neu laden (<kbd>Strg</kbd> + <kbd>F5</kbd>).</li>
   <li>Dashboard &rarr; Bearbeiten (Stift) &rarr; „Widget hinzufügen" &rarr; <b>Network Time</b>.</li>
 </ol>
